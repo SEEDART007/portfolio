@@ -9,7 +9,7 @@ import Links from './Links';
 function App() {
   return (
     <div>
-       <BrowserRouter >
+       <BrowserRouter basename="/portfolio" >
       <Routes >
           <Route path="/" element={<First />} />
         <Route path="/Skills" element={<Skills />}/>
